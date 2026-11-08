@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: psa_raw
+    database: my-project-512301
+    schema: psa_raw
+    tables:
+      - name: raw_psa_crop_area
+        description: "Raw PSA crop production wide-format data."
